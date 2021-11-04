@@ -1,0 +1,264 @@
+{
+    "articles": [
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Nilay Patel",
+            "title": "Meta’s Andrew Bosworth on moving Facebook to the metaverse",
+            "description": "VP of Reality Labs Andrew Bosworth talks about his long career at Facebook and how building the metaverse is a refocus for the company. He also touches on the new name, Meta, and the Facebook Papers.",
+            "url": "https://www.theverge.com/22752986/meta-facebook-andrew-bosworth-interview-metaverse-vr-ar",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/1FK1iuupaZcrx4CKiMHhdbZbx4w=/0x148:2050x1221/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22969597/VRG_ILLO_Decoder_AndrewBosworth_s.jpg",
+            "publishedAt": "2021-11-01T13:15:00Z",
+            "content": "Grayson Blackmon\r\n\n \n\n\n ‘The magnitude of technological shifts that we are trying to manifest here hasn’t been attempted in a long time’ Last week, Facebook announced a major corporate rebrand by cha… [+38546 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Crypto is next fintech battle for India's Gen Z - Reuters",
+            "description": "It’s easier and faster to buy bitcoin, ethereum and dogecoin in India than it is to order a pizza on food-delivery app Zomato <a href=\"https://www.reuters.com/companies/ZOMT.NS\" target=\"_blank\">(ZOMT.NS)</a>. That’s how startups are luring the country’s next …",
+            "url": "https://www.reuters.com/breakingviews/crypto-is-next-fintech-battle-indias-gen-z-2021-11-01/",
+            "urlToImage": "https://www.reuters.com/resizer/R0kThNKecjyPR4bY9LOkvXVkqmY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/VJ4QKVTUCVKMRIHF7LI3LB2RGY.jpg",
+            "publishedAt": "2021-11-01T03:34:00Z",
+            "content": "Representations of cryptocurrencies Bitcoin, Ethereum, DogeCoin, Ripple, Litecoin are placed on PC motherboard in this illustration taken, June 29, 2021. REUTERS/Dado Ruvic/Illustration/File Photo MU… [+3384 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Elizabeth Howcroft",
+            "title": "Metaverse pioneers unimpressed by Facebook rebrand - Reuters",
+            "description": "Early adopters of the virtual worlds known as the metaverse criticised Facebook's rebranding as an attempt to capitalise on growing buzz over a concept that it did not create.",
+            "url": "https://www.reuters.com/article/facebook-connect-metaverse-idUSL8N2RP6YT",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2021-11-01T10:01:00Z",
+            "content": "LONDON, Nov 1 (Reuters) - Early adopters of the virtual worlds known as the metaverse criticised Facebooks rebranding as an attempt to capitalise on growing buzz over a concept that it did not create… [+3186 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Metaverse pioneers unimpressed by Facebook rebrand - Reuters",
+            "description": "Early adopters of the virtual worlds known as the metaverse criticised Facebook's rebranding as an attempt to capitalise on growing buzz over a concept that it did not create.",
+            "url": "https://www.reuters.com/technology/metaverse-pioneers-unimpressed-by-facebook-rebrand-2021-11-01/",
+            "urlToImage": "https://www.reuters.com/resizer/_FQhi7gvNZLcJtX5x_HLS18-bx0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/C47J3V5ZNJNJPHI64BUWR6FLK4.jpg",
+            "publishedAt": "2021-11-01T10:04:00Z",
+            "content": "An avatar of Facebook CEO Mark Zuckerberg is seen carrying a U.S. flag while riding a hydrofoil in the \"Metaverse\" during a live-streamed virtual and augmented reality conference to announce the rebr… [+3673 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "hrobertson@businessinsider.com (Harry Robertson)",
+            "title": "Tech billionaire Peter Thiel says bitcoin's record-high price shows inflation is at a crisis point",
+            "description": "PayPal founder Peter Thiel told a conference that bitcoin's record-high price was a sign of investors' fears about rampant inflation.",
+            "url": "https://markets.businessinsider.com/news/currencies/peter-thiel-bitcoin-crypto-reocrd-high-inflation-crisis-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/61800d0923745d0018247443?format=jpeg",
+            "publishedAt": "2021-11-01T16:07:21Z",
+            "content": "Peter Thiel is a tech billionaire and crypto fan.\r\nNeilson Barnard/Getty Images for New York Times\r\nTech billionaire Peter Thiel has said bitcoin's sky-high price is a sign that the economy is facing… [+2101 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "hrobertson@businessinsider.com (Harry Robertson)",
+            "title": "Crypto exchange Binance halts withdrawals while it struggles to deal with a large backlog",
+            "description": "Binance said on Monday that it has temporarily suspended all crypto withdrawals,",
+            "url": "https://markets.businessinsider.com/news/currencies/binance-halts-withdrawals-crypto-exchange-outage-bitcoin-trading-investing-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/61239535de5f560019e84130?format=jpeg",
+            "publishedAt": "2021-11-01T13:35:04Z",
+            "content": "Binance is the biggest crypto exchange in the world by daily volume.\r\nSOPA Images / Getty Images\r\nBinance, the biggest crypto exchange in the world, has put withdrawals on hold as it struggles to cle… [+1472 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "snagarajan@businessinsider.com (Shalini Nagarajan)",
+            "title": "Reddit cofounder Alexis Ohanian shares why he's bullish on the metaverse - and calls Facebook's rebrand a masterstroke in distraction",
+            "description": "The rise of crypto and Web 3, human engagement with VR and AR, and the need for online connections are reasons Ohanian is bullish on the metaverse.",
+            "url": "https://markets.businessinsider.com/news/currencies/reddit-alexis-ohanian-metaverse-crypto-web3-bullish-facebook-meta-distraction-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/617fc0871037b1001815240c?format=jpeg",
+            "publishedAt": "2021-11-01T12:55:26Z",
+            "content": "Reddit co-founder, Alexis Ohanian.\r\nLucy Nicholson/Reuters\r\nAlexis Ohanian, who cofounded Reddit in 2005, said the rise of cryptocurrencies and the third generation of the web are giving him reason t… [+2991 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "ilee@insider.com (Isabelle Lee)",
+            "title": "Crypto could be the 'greatest innovation of our lifetime' and other soaring predictions from JMP",
+            "description": "JMP also sees the number of tokens exploding from more than 10,000 today to potentially the millions, though only a small number will survive.",
+            "url": "https://markets.businessinsider.com/news/currencies/crypto-price-outlook-greatest-innovation-lifetime-jmp-securities-bitcoin-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/613b2e37a30aeb0018b4dea6?format=jpeg",
+            "publishedAt": "2021-11-01T18:58:49Z",
+            "content": "Bitcoin.\r\nRafael Henrique/SOPA Images/LightRocket via Getty Images\r\nThe cryptocurrency economy has achieved breakneck progress in the last decade, and JMP Securities sees further innovation coming at… [+2706 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "ilee@insider.com (Isabelle Lee)",
+            "title": "Burger King is partnering with Robinhood to give away $2.6 million of crypto to the fast food chain's loyalty club members",
+            "description": "The odds of winning are 100,011-to-1 for a bitcoin prize, 10,001-to-1 for ether, and 1-to-1 for dogecoin.",
+            "url": "https://markets.businessinsider.com/news/currencies/burger-king-robinhood-cryptocurrency-giveaway-bitcoin-ether-dogecoin-dollars-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/617fdd5d23745d001824678b?format=jpeg",
+            "publishedAt": "2021-11-01T13:17:35Z",
+            "content": "Burger King.\r\nAP Photo/Gene J. Puskar\r\nFast-food chain Burger King is partnering with trading platform Robinhood to feed people who are hungry for cryptocurrencies.\r\nBurger King is giving its US loya… [+1171 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "cshumba@insider.com (Camomile Shumba)",
+            "title": "Squid Game token goes offline after skyrocketing 75,000% - and that means the scam is over, CoinGecko says",
+            "description": "A cryptocurrency inspired by \"Squid Game\" shot up 75,000% as buyers jumped in, but dead links to its website and social media suggest it was a scam.",
+            "url": "https://markets.businessinsider.com/news/currencies/the-squid-game-token-scam-website-socials-offline-coingecko-crypto-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/617fff521037b10018152c9a?format=jpeg",
+            "publishedAt": "2021-11-01T15:34:42Z",
+            "content": "Squid game costumes\r\nBilly H.C. Kwok\r\nA cryptocurrency inspired by Netflix hit \"Squid Game\" shot up 75,000% as buyers jumped in, but now links to its website and social media are dead, suggesting it … [+1717 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "insider@insider.com (Carla Mozée)",
+            "title": "Bitcoin bull Michael Saylor says MicroStrategy will continue to use cash, debt, or equity to keep adding to its trove of bitcoin",
+            "description": "MicroStrategy's stash of bitcoin is now worth around $7 billion after an additional 9,000 coins were added in the quarter ended Sept. 30.",
+            "url": "https://markets.businessinsider.com/news/currencies/microstrategy-bitcoin-cryptocurrency-buying-inflation-ceo-michael-saylor-mstr-holdings-2021-11",
+            "urlToImage": "https://images2.markets.businessinsider.com/618013b01037b100181533c6?format=jpeg",
+            "publishedAt": "2021-11-01T17:37:01Z",
+            "content": "MicroStrategy CEO Michael Saylor.\r\nJoe Raedle/Getty Images\r\nMicroStrategy will continue stockpiling bitcoin for years to come, and while the cryptocurrency's price is volatile, \"it's going up forever… [+1733 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "insider@insider.com (Adriana Nunez)",
+            "title": "New deals and products can help Fiserv invigorate growth in Q4",
+            "description": "Financial services technology giant Fiserv reports 10% YoY revenue growth in Q3, also scoring a number of high-profile deals that will drive Q4.",
+            "url": "https://www.businessinsider.com/fiserv-reports-revenue-growth-in-q3-2021-11",
+            "urlToImage": "https://i.insider.com/617feded23745d00182469d9?width=1200&format=jpeg",
+            "publishedAt": "2021-11-01T13:39:56Z",
+            "content": "By the numbers: Financial services technology giant Fiserv reported 10% year-over-year (YoY) revenue growth in Q3, notching $3.96 billion and strongly outperforming Q3 2020's 1% decline. Revenues als… [+2888 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "insider@insider.com (Victor Chatenay)",
+            "title": "Fintechs will play a key role in the metaverse",
+            "description": "Facebook's metaverse plans will open up opportunities for fintechs looking to embed their solutions within this next iteration of the digital realm.",
+            "url": "https://www.businessinsider.com/facebooks-rebrand-will-open-opportunities-for-fintechs-2021-11",
+            "urlToImage": "https://i.insider.com/617ff1c323745d0018246a6d?width=1200&format=jpeg",
+            "publishedAt": "2021-11-01T13:57:05Z",
+            "content": "What we've been thinking: Facebook's rebranding\r\n as a metaverse innovator opens up opportunities for firms looking to embed fintech solutions into this next iteration of the digital realm.\r\nInsider … [+2866 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NerdWallet"
+            },
+            "author": "Sean Pyles",
+            "title": "Smart Money Podcast: 3 Crypto Questions, and Improving Credit to Buy a House",
+            "description": "Welcome to NerdWallet’s Smart Money podcast, where we answer your real-world money questions. This week’s episode starts with a discussion of three questions you should ask yourself before buying crypto…",
+            "url": "https://www.nerdwallet.com/article/finance/smart-money-podcast-crypto-questions-and-improving-credit-to-buy-a-house",
+            "urlToImage": "https://assets.entrepreneur.com/providers/nerdwallet/hero-image-nerdwallet-394625.jpeg",
+            "publishedAt": "2021-11-01T16:00:11Z",
+            "content": "This article provides information for educational purposes. NerdWallet does not offer advisory or brokerage services, nor does it recommend specific investments, including stocks, securities or crypt… [+27985 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Entrepreneur"
+            },
+            "author": "Entrepreneur en Español",
+            "title": "Burger King will 'offer' the cryptocurrencies Bitcoin, Dogecoin and Ethereum in its menu",
+            "description": "As reported by the same chain on its website, the jackpot will consist of two million Dogecoin, 200 Ether and (barely) 20 Bitcoin.",
+            "url": "https://www.entrepreneur.com/article/394652",
+            "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1635787926-Capturadepantalla2021-11-01alas111301.jpg",
+            "publishedAt": "2021-11-01T17:32:42Z",
+            "content": "Grill burger chain Burger King announced a partnership with Robinhood to give away Bitcoin , Ethereum and Dogecoin to members of its Royal Perks loyalty program to consumers who spend $ 5 on the rest… [+918 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Sanghamitra Saha",
+            "title": "4 Top-Performing ETF Areas of Last Week",
+            "description": "Big three U.S. indexes including the S&P 500, the Dow Jones, the Nasdaq Composite and the Russell 2000 made last week a winning one for investors.",
+            "url": "http://www.zacks.com/stock/news/1821103/4-top-performing-etf-areas-of-last-week?cid=CS-ENTREPRENEUR-FT-etf_news_and_commentary-1821103",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-394689.jpeg",
+            "publishedAt": "2021-11-01T18:30:00Z",
+            "content": "Big three U.S. indexes including the S&amp;P 500 (up 1.33%), the Dow Jones (0.40%), the Nasdaq Composite (up 2.70%) and the Russell 2000 (up 4.2%) made last week a winning one for investors. Crypto-r… [+4419 chars]"
+        },
+        {
+            "source": {
+                "id": "the-globe-and-mail",
+                "name": "The Globe And Mail"
+            },
+            "author": "Elizabeth Howcroft",
+            "title": "Metaverse pioneers criticize Facebook's rebranding - The Globe and Mail",
+            "description": "Early adopters of the virtual worlds known as the metaverse called Facebook’s rebranding an attempt to capitalize on growing buzz over a concept that it did not create",
+            "url": "https://www.theglobeandmail.com/business/technology/article-metaverse-pioneers-criticize-facebooks-rebranding/",
+            "urlToImage": "https://www.theglobeandmail.com/resizer/_1Ppm1Eoi43yMoFf42DcrZLEsUc=/1200x800/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/tgam/3XWWFQM4O5JYPB4K3BZYV3D36E.jpg",
+            "publishedAt": "2021-11-01T12:18:48Z",
+            "content": "Facebook CEO Mark Zuckerberg announces the company's new name during a virtual event on Oct. 28.Eric Risberg/The Associated Press\r\nEarly adopters of the virtual worlds known as the metaverse criticiz… [+3446 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "Reuters",
+            "title": "Metaverse pioneers unimpressed by Facebook rebrand - Financial Post",
+            "description": "LONDON — Early adopters of the virtual worlds known as the metaverse criticized Facebook’s rebranding as an attempt to capitalize on growing buzz over a…",
+            "url": "https://financialpost.com/pmn/business-pmn/metaverse-pioneers-unimpressed-by-facebook-rebrand",
+            "urlToImage": null,
+            "publishedAt": "2021-11-01T10:03:22Z",
+            "content": "Article content\r\nLONDON Early adopters of the virtual worlds known as the metaverse criticized Facebooks rebranding as an attempt to capitalize on growing buzz over a concept that it did not create.\r… [+4752 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kotaku"
+            },
+            "author": "Luke Plunkett",
+            "title": "Mario Kart NFT Idea Is The Worst Thing I Have Ever Read",
+            "description": "Bloomberg Wealth has a major feature up today called “Into the Metaverse: Where Crypto, Gaming and Capitalism Collide”. It is as critical and as informative as you’d guess something coming from a finance site would be, but there’s one section in particular th…",
+            "url": "https://kotaku.com/mario-kart-nft-idea-is-the-worst-thing-i-have-ever-read-1847977673",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/bddc487605bcc6dfa222ad4ebf4bc4e2.jpg",
+            "publishedAt": "2021-11-01T22:00:00Z",
+            "content": "Bloomberg Wealthhas a major feature up today called Into the Metaverse: Where Crypto, Gaming and Capitalism Collide. It is as critical and as informative as youd guess something coming from a finance… [+2255 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Real Simple",
+            "title": "35 Bingeable Shows on Netflix to Watch This November",
+            "description": "There’s plenty of entertainment here to be thankful for.",
+            "url": "https://news.yahoo.com/35-bingeable-shows-netflix-watch-174109905.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/nk2NqOdvtcb_C_CWxa5tOw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/hd/cp-video-transcode/prod/2021-11/01/6180277fa9d56a2ae7fbaf02/6180277fa9d56a2ae7fbaf03_o_U_v2.jpg",
+            "publishedAt": "2021-11-01T17:41:09Z",
+            "content": "(Bloomberg) -- The lab-grown diamond industry is the latest sector to feel the effects of Chinas energy crisis -- and if the situation gets worse, consumers may find that special Christmas gift is su… [+298 chars]"
+        }
+    ]
+}
