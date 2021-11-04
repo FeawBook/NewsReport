@@ -14,8 +14,8 @@ class NewsFeedViewController: BaseViewController {
     @IBOutlet private weak var feedTableView: UITableView!
     @IBOutlet private weak var searchBar: UISearchBar!
     private let disposeBag = DisposeBag()
-    let newsFeedViewModel = NewsFeedViewModel()
-    var news = PublishSubject<[Article]>()
+    private let newsFeedViewModel = NewsFeedViewModel()
+    private var news = PublishSubject<[Article]>()
     
     private lazy var viewSpinner: UIView = {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 100))
