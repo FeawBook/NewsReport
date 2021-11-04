@@ -202,7 +202,6 @@
 				DD6C626127339EC000D73505 /* NewsFeed */,
 				DD6C625E27339DD200D73505 /* Providers */,
 				DD4AABD927318F79006368F2 /* NewsReportTests.swift */,
-				DD6C625C2733964E00D73505 /* NewsFeedViewModelTests.swift */,
 			);
 			path = NewsReportTests;
 			sourceTree = "<group>";
@@ -310,6 +309,7 @@
 				DD6C62752733F04000D73505 /* news.json */,
 				DD6C62792733F2FB00D73505 /* empty.json */,
 				DD6C62772733F23F00D73505 /* error.json */,
+				DD6C625C2733964E00D73505 /* NewsFeedViewModelTests.swift */,
 				DD6C626227339EED00D73505 /* NewsFeedDataSourceTests.swift */,
 			);
 			path = NewsFeed;
