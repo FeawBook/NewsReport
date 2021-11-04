@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 import Moya
 import RxRelay
+import RxCocoa
 
 protocol NewsFeedViewModelProtocol {
     func requestData(page: Int, isLoadMore: Bool)

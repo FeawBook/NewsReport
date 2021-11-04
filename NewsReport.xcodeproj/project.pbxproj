@@ -369,6 +369,7 @@
 				DD4AABD127318F79006368F2 /* Sources */,
 				DD4AABD227318F79006368F2 /* Frameworks */,
 				DD4AABD327318F79006368F2 /* Resources */,
+				A0F3BBC7078454B251B6BCE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -551,6 +552,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsReport/Pods-NewsReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F3BBC7078454B251B6BCE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsReportTests/Pods-NewsReportTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsReportTests/Pods-NewsReportTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsReportTests/Pods-NewsReportTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B420F000076213CDA3C1E290 /* [CP] Check Pods Manifest.lock */ = {

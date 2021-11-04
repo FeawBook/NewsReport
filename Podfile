@@ -15,6 +15,8 @@ target 'NewsReport' do
   target 'NewsReportTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxTest'
+    pod 'RxBlocking'
   end
 
   target 'NewsReportUITests' do
