@@ -46,44 +46,45 @@ class NewsFeedViewModel {
     }
     
     fileprivate func handleData(_ responseData: [Article]?) {
-        self.maxValue = responseData?.count ?? 0
-        if self.pageCounter == 1, let finalData = responseData {
-            self.maxValue = responseData?.count ?? 0
-            self.isLoadSpinning.onNext(false)
-            self.news.accept(finalData)
+        maxValue = responseData?.count ?? 0
+        if pageCounter == 1, let finalData = responseData {
+            maxValue = responseData?.count ?? 0
+            isLoadSpinning.onNext(false)
+            news.accept(finalData)
         } else if let data = responseData {
             let oldFeed = self.news.value
-            self.news.accept(oldFeed + data)
+            news.accept(oldFeed + data)
         }
-        self.pageCounter += 1
+        pageCounter += 1
     }
     
     func requestData(page: Int, isLoadMore: Bool) {
         if isPagination { return }
         
-        if self.pageCounter > self.maxValue {
-            self.isPagination = false
+        if pageCounter > maxValue {
+            isPagination = false
         } else {
-            self.isPagination = true
-            self.isLoadSpinning.onNext(true)
+            isPagination = true
+            isLoadSpinning.onNext(true)
         }
         
-        if self.pageCounter == 1 {
-            self.isLoadSpinning.onNext(false)
+        if pageCounter == 1 {
+            isLoadSpinning.onNext(false)
         }
         
         if !isLoadMore {
-            self.loading.onNext(true)
+            loading.onNext(true)
         }
         
-        self.newsFeedUseCase.getNews(page: page)
+        newsFeedUseCase.getNews(page: page)
             .subscribe(onNext: { [weak self] articles in
                 guard let self = self else { return }
                 self.loading.onNext(false)
                 self.handleData(articles)
                 self.isLoadSpinning.onNext(false)
                 self.isPagination = false
-            }, onError: { error in
+            }, onError: { [weak self] error in
+                guard let self = self else { return }
                 self.error.onNext(.internetError("\(error.localizedDescription)"))
             }).disposed(by: disposeBag)
         

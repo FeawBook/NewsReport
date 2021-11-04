@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             /// FORCE APP TO LIGHT MODE
             self.window?.overrideUserInterfaceStyle = .light
         }
-        let storyBoard : UIStoryboard = UIStoryboard(name: "NewsFeed", bundle:nil)
-        let initialVc = storyBoard.instantiateViewController(withIdentifier: "NewsFeedViewController") as! NewsFeedViewController
+        let storyBoard : UIStoryboard = UIStoryboard(name: StoryboardName.newsFeed.rawValue, bundle:nil)
+        let initialVc = storyBoard.instantiateViewController(withIdentifier: ViewControllerIdentifier.newsFeed.rawValue) as! NewsFeedViewController
         self.window?.rootViewController = initialVc
         return true
     }

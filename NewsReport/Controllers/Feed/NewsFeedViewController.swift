@@ -11,12 +11,11 @@ import Kingfisher
 
 class NewsFeedViewController: BaseViewController {
 
-    @IBOutlet weak var feedTableView: UITableView!
-    @IBOutlet weak var searchBar: UISearchBar!
-    let disposeBag = DisposeBag()
+    @IBOutlet private weak var feedTableView: UITableView!
+    @IBOutlet private weak var searchBar: UISearchBar!
+    private let disposeBag = DisposeBag()
     let newsFeedViewModel = NewsFeedViewModel()
     var news = PublishSubject<[Article]>()
-    let transition: PopAnimator = PopAnimator()
     
     private lazy var viewSpinner: UIView = {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 100))
@@ -30,9 +29,9 @@ class NewsFeedViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "News"
-        self.binding()
-        self.setupView()
+        title = "News"
+        binding()
+        setupView()
         newsFeedViewModel.requestData(page: 1, isLoadMore: false)
     }
     
@@ -40,10 +39,10 @@ class NewsFeedViewController: BaseViewController {
         super.viewWillTransition(to: size, with: coordinator)
     }
     
-    func setupView() {
-        self.feedTableView.tableFooterView = UIView(frame: .zero)
-        self.feedTableView.estimatedRowHeight = 80
-        self.feedTableView.rowHeight = UITableView.automaticDimension
+    private func setupView() {
+        feedTableView.tableFooterView = UIView(frame: .zero)
+        feedTableView.estimatedRowHeight = 80
+        feedTableView.rowHeight = UITableView.automaticDimension
     }
     
     private func binding() {
@@ -60,7 +59,8 @@ class NewsFeedViewController: BaseViewController {
         .disposed(by: disposeBag)
         
         self.feedTableView.rx.willDisplayCell
-            .subscribe(onNext: ({ (cell, indexPath) in
+            .subscribe(onNext: ({ [weak self] (cell, indexPath) in
+                guard let self = self else { return }
                 cell.alpha = 0
                 let transform = CATransform3DTranslate(CATransform3DIdentity, 0, -250, 0)
                 cell.layer.transform = transform
@@ -75,7 +75,7 @@ class NewsFeedViewController: BaseViewController {
             .zip(feedTableView.rx.itemSelected, feedTableView.rx.modelSelected(Article.self))
             .bind { [unowned self] indexPath, model in
                 self.feedTableView.deselectRow(at: indexPath, animated: true)
-                guard let vc = UIStoryboard(name: "NewsDetail", bundle: nil).instantiateViewController(withIdentifier: "NewsDetailViewController") as? NewsDetailViewController else { return }
+                guard let vc = UIStoryboard(name: StoryboardName.newsDetail.rawValue, bundle: nil).instantiateViewController(withIdentifier: ViewControllerIdentifier.newsDetail.rawValue) as? NewsDetailViewController else { return }
                 vc.article = model
                 self.navigationController?.pushViewController(vc, animated: true)
             }
@@ -90,15 +90,16 @@ class NewsFeedViewController: BaseViewController {
             .news
             .observe(on: MainScheduler.instance)
             .bind(to: self.feedTableView.rx.items(
-                cellIdentifier: "FeedTableViewCell",
-                cellType: FeedTableViewCell.self)) { (row, article, cell) in
+                cellIdentifier: TableViewCellIdentifier.feed.rawValue,
+                cellType: FeedTableViewCell.self)) { [weak self] (row, article, cell) in
+                    guard let self = self else { return }
                     guard let article = article else {
                         return
                     }
                     cell.feedImageView.kf.setImage(with: URL(string: article.urlToImage ?? ""), placeholder: UIImage(named: "placeholder"), options: [.cacheOriginalImage], completionHandler: nil)
                     cell.titleLabel.text = article.title ?? ""
                     cell.descriptionLabel.text = article.description ?? ""
-                    if let dateString = "\(article.publishedAt ?? "")".convertDateString(currentFormat: "yyyy-MM-dd'T'HH:mm:ss'Z'", expectFormat: "MMM dd, HH:mm") {
+                    if let dateString = "\(article.publishedAt ?? "")".convertDateString(currentFormat: DateTimeFormat.server.rawValue, expectFormat: DateTimeFormat.english.rawValue) {
                         cell.createdDateLabel.text = "Updated: " + dateString
                     }
                     
@@ -108,7 +109,8 @@ class NewsFeedViewController: BaseViewController {
         newsFeedViewModel
             .error
             .observe(on: MainScheduler.instance)
-            .subscribe(onNext: {(error) in
+            .subscribe(onNext: { [weak self] (error) in
+                guard let self = self else { return }
                 switch error {
                 case .internetError(let message):
                     self.showAlertWithMessage(message: message)
@@ -128,7 +130,8 @@ class NewsFeedViewController: BaseViewController {
         
         searchBar.rx.text
             .orEmpty
-            .subscribe(onNext: {query in
+            .subscribe(onNext: { [weak self] query in
+                guard let self = self else { return }
                 let data = self.newsFeedViewModel.news.value
                 if query != "" {
                     self.newsFeedViewModel.news.accept(data.filter { $0?.title?.hasPrefix(query) ?? false })

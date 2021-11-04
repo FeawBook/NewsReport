@@ -7,6 +7,11 @@
 
 import Foundation
 
+enum DateTimeFormat: String {
+    case english = "MMM dd, HH:mm"
+    case server = "yyyy-MM-dd'T'HH:mm:ss'Z'"
+}
+
 extension String {
     func convertDateString(currentFormat: String, expectFormat: String) -> String? {
         let formatter = DateFormatter()

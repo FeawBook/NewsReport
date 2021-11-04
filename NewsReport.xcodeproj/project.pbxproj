@@ -39,6 +39,7 @@
 		DD6C62782733F23F00D73505 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = DD6C62772733F23F00D73505 /* error.json */; };
 		DD6C627A2733F2FB00D73505 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = DD6C62792733F2FB00D73505 /* empty.json */; };
 		DD6C627C2733F54B00D73505 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C627B2733F54B00D73505 /* PopAnimator.swift */; };
+		DD6C627E27341A7300D73505 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C627D27341A7300D73505 /* Identifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		DD6C62772733F23F00D73505 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
 		DD6C62792733F2FB00D73505 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
 		DD6C627B2733F54B00D73505 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		DD6C627D27341A7300D73505 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				DD228FFC2732B296008D6361 /* RxSwiftExtension.swift */,
 				DD2290022732CA3D008D6361 /* StringExtension.swift */,
 				DD6C627B2733F54B00D73505 /* PopAnimator.swift */,
+				DD6C627D27341A7300D73505 /* Identifier.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 				DD2290072732D61B008D6361 /* NewsDetailViewController.swift in Sources */,
 				DD2290032732CA3D008D6361 /* StringExtension.swift in Sources */,
 				DD4AABF72731942D006368F2 /* NewsFeedViewController.swift in Sources */,
+				DD6C627E27341A7300D73505 /* Identifier.swift in Sources */,
 				DD4AABFE27319CD5006368F2 /* BaseViewController.swift in Sources */,
 				DD4AAC042731B8A8006368F2 /* NewsAPI.swift in Sources */,
 			);
